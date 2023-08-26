@@ -13,7 +13,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
 
 /**
- * Spring security configuration class implemented authentication and authorization
+ *
  */
 @Configuration
 @EnableWebSecurity
