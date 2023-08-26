@@ -45,6 +45,11 @@ public class SpringSecurityConfiguration  {
                 .httpBasic(Customizer.withDefaults())
                 .build();
     }
+
+    /**
+     * validate user entered password wi
+     * @return
+     */
     @Bean
     public PasswordEncoder getInstance(){
         return NoOpPasswordEncoder.getInstance();
